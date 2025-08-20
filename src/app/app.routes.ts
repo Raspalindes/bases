@@ -11,6 +11,12 @@ component: CounterPageComponent
 {
 path: 'hero',
 component: HeroPageComponent
+},
+{
+path: '**',
+redirectTo: '',
+
 }
+
 
 ];
